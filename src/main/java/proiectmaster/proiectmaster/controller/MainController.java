@@ -30,7 +30,6 @@ public class MainController {
         return mainService.deleteTransaction(description);
     }
 
-    
     @GetMapping("/getTransaction")
     public Transaction getTransactionByDescription(@RequestParam String description) {
         return mainService.getTransactionByDescription(description);
