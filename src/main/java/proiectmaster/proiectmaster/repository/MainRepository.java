@@ -15,6 +15,9 @@ public class MainRepository {
     private static  List<Transaction> transactionList = new ArrayList<>();
 
     public MainRepository() {
+//        transactionList.add(Transaction.builder()
+//                            .value(2323)
+//                            .description("test").unit("USD").build());
         transactionList.add(new Transaction(12, "Test1", "USD"));
         transactionList.add(new Transaction(23, "Test2", "EUR"));
         transactionList.add(new Transaction(200, "Test3", "RON"));

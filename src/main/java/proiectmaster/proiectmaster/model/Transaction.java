@@ -1,5 +1,18 @@
 package proiectmaster.proiectmaster.model;
 
+import lombok.*;
+
+/*
+    For set and get
+ */
+//@Data
+/*
+    To create object
+ */
+//@Builder
+//@AllArgsConstructor
+//@NoArgsConstructor
+//@ToString
 public class Transaction {
     private int value;
     private String description;
@@ -8,13 +21,13 @@ public class Transaction {
     public Transaction() {
     }
 
-    public Transaction(int value, String description, String unit) {
+        public Transaction(int value, String description, String unit) {
         this.value = value;
         this.description = description;
         this.unit = unit;
     }
 
-    public int getValue() {
+        public int getValue() {
         return value;
     }
 
